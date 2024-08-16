@@ -32,21 +32,27 @@ Cryptocurrency markets are highly volatile, and traditional price prediction mod
 
 To replicate this project, clone the repository and install the necessary dependencies. You can install them via `pip` using the command:
 
+
+## Installation and Requirements
+
+To replicate this project, you need to install the required Python libraries. You can install them by running the following command:
+
 ```bash
-pip install -r requirements.txt
+pip install pandas scikit-learn xgboost yfinance joblib matplotlib numpy jupyter
 ```
 
 ### Requirements
 
-- Python 3.x
-- Jupyter Notebook
-- Pandas
-- Scikit-learn
-- XGBoost
-- yfinance
-- Joblib
-- Matplotlib
-- Numpy
+- **Python 3.x**
+- **Pandas**: For data manipulation and analysis.
+- **Scikit-learn**: For machine learning algorithms, model evaluation, and hyperparameter tuning.
+- **XGBoost**: For gradient boosting-based classification.
+- **yfinance**: To fetch historical financial data.
+- **Joblib**: To save and load models.
+- **Matplotlib**: For data visualization.
+- **Numpy**: For numerical operations.
+- **Jupyter Notebook**: To run the provided notebooks.
+
 
 ## Usage Instructions
 
